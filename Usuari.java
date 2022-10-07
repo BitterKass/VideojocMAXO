@@ -1,4 +1,4 @@
-public class Usuari {
+public class Usuari { //heeeeeeeeeeeey muy buenas a todos guaaaaaaaaaapisimos
     private String nomDelUsuari;
 
     public Usuari(String nomUsuari) {
