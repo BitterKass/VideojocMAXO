@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-
+//Pizza best comida ever
 public class Videojoc {
     private String nom;
     private String genere;
