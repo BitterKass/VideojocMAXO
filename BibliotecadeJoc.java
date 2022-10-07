@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
+//Comentari fet per l'ORIOL PUIGDEMONT som divendres dia 07/10/2022
 public class BibliotecaDeVideojocs {
     private SetVideojoc videojocs;
 
