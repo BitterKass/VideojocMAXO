@@ -1,5 +1,5 @@
 import java.time.LocalDate;
-
+//Comentari en la BrancaXavi
 public class Usuari {
     private final int id;
     private static int ultimId = 0;
