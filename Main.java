@@ -1,7 +1,7 @@
 import java.util.Set;
 //Cometari Arià Casellas
-public class Main {//Comentari Arià Casellas a la branca Branca-Aria
-    public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {//Comentari Arià Casellas a la branca Branca-Aria
         BibliotecaDeVideojocs biblioteca = new BibliotecaDeVideojocs();
 
         Usuari joan = new Usuari("Joan");
