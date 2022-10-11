@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 //Pizza best comida ever
+//Pizza best comida ever branca coro
 public class Videojoc {
     private String nom;
     private String genere;

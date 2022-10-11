@@ -1,6 +1,6 @@
 import java.util.Set;
 //Cometari Arià Casellas
-public class Main {
+public class Main {//Comentari Arià Casellas a la branca Branca-Aria
     public static void main(String[] args) {
         BibliotecaDeVideojocs biblioteca = new BibliotecaDeVideojocs();
 
