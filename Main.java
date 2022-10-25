@@ -1,4 +1,4 @@
-import java.util.Set;
+import java.util.Set;//Comentari linea 1 Arià 
 //Cometari Arià Casellas
 public class Main {//Comentari Arià Casellas a la branca Branca-Aria
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Main {//Comentari Arià Casellas a la branca Branca-Aria
         System.out.println("\n** USUARIS QUE HAN CONSULTAT");
         Set<Usuari> usuarisQueHanConsultat = videojoc1.getUsuarisQueHanConsultat();
         for (Usuari usuari : usuarisQueHanConsultat) {
-            System.out.println(usuari.getIdentificador());
+            System.out.println(usuari.getIdentificador()); //canvi
         }
     }
 }
