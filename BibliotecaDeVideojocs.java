@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-//COMENTARI ORIOL PUIGDEMONT MAGRADA MOLT MENJAR CIRERES.
+
 public class BibliotecaDeVideojocs {
     private Set<Videojoc> videojocs;
 

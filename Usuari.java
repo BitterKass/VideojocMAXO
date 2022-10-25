@@ -1,8 +1,11 @@
-import java.time.LocalDate;//Comentari en la BrancaXavi
+import java.time.LocalDate;
+
 
 public class Usuari {
     private final int id;
     private static int ultimId = 0;
+
+
 
     private String nickname;
     private String nom;
@@ -15,7 +18,16 @@ public class Usuari {
         this.id = ultimId;
     }
 
+    public String getNickname() {
+        return nickname;
+    }
+
     public String getIdentificador() {
         return nickname+"#"+String.format("%04d", id);
+    }
+
+    public void afegirComentari(Videojoc videojoc, String textDelComentari) {
+        Comentari comentari = new Comentari(this, textDelComentari);
+        videojoc.afegirComentari(comentari);
     }
 }
