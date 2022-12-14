@@ -6,7 +6,7 @@ public class Main {
 
         Usuari joan = new Usuari("Joan");
         Videojoc videojoc1 = biblioteca.buscar(joan, "Return to Monkey Island");
-        videojoc1.mostrarDades();
+        getVideojoc1(videojoc1).mostrarDades();
         joan.afegirComentari(videojoc1, "Aquest videojoc és molt guay.");
         joan.afegirComentari(videojoc1, """                
                 ⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
@@ -40,5 +40,9 @@ public class Main {
             System.out.println("- " + comentari.getData() + ": " + comentari.getUsuari().getIdentificador());
             System.out.println(comentari.getText());
         }
+    }
+
+    private static Videojoc getVideojoc1(Videojoc videojoc1) {
+        return videojoc1;
     }
 }
