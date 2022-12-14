@@ -33,6 +33,6 @@ public class Usuari {
     public void haValorat(Videojoc videojoc, String textDelComentari){
         Comentari comentari = new Comentari(this, textDelComentari);
         videojoc.afegirComentari(comentari);
-        if (comentari )
+
     }
 }
