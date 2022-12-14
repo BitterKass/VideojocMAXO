@@ -30,4 +30,9 @@ public class Usuari {
         Comentari comentari = new Comentari(this, textDelComentari);
         videojoc.afegirComentari(comentari);
     }
+    public void haValorat(Videojoc videojoc, String textDelComentari){
+        Comentari comentari = new Comentari(this, textDelComentari);
+        videojoc.afegirComentari(comentari);
+        if (comentari )
+    }
 }
