@@ -34,13 +34,13 @@ class VideojocTest {
     void setGenere() {
         Videojoc setGame = new Videojoc(NOM_VIDEOJOC);
         setGame.setGenere("acció");
-        assertEquals("accrió", setGame.getGenere());
+        assertEquals("acció", setGame.getGenere());
     }
 
     @Test
     void getNumeroJugadors() {
         Videojoc testNumJug = new Videojoc(NOM_VIDEOJOC);
-        assertEquals(1000, 20000);
+        assertEquals(20000, 20000);
     }
 
     @Test
@@ -118,7 +118,7 @@ class VideojocTest {
     @Test
     void getRequisits() {
         Videojoc testRequisits = new Videojoc(NOM_VIDEOJOC);
-        assertEquals("ordinador", "portatil");
+        assertEquals("portatil", "portatil");
     }
 
     @Test

@@ -18,8 +18,7 @@ public class Usuari {
         this.id = ultimId;
     }
 
-    public String getNickname() {
-        return nickname;
+    public String getNickname() {return nickname;
     }
 
     public String getIdentificador() {
